@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-900 text-white font-sans antialiased;
+  }
+}
+
+.nav-blur {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.hero-gradient {
+  background: linear-gradient(180deg, rgba(17, 24, 39, 0) 0%, rgba(17, 24, 39, 1) 100%);
+}
+
+.apple-button {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+}
+
+.apple-button:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.feature-scroll {
+  scroll-snap-type: x mandatory;
+}
+
+.feature-scroll > div {
+  scroll-snap-align: center;
+}
