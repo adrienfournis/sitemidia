@@ -37,7 +37,7 @@ export function Home() {
         <div 
           className="absolute inset-0 w-full h-full bg-no-repeat bg-cover bg-center"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1601598851547-4302969d0614?q=80&w=2664&auto=format&fit=crop")',
+            backgroundImage: 'url("https://images.unsplash.com/photo-1604719312566-8912e9227c6a")',
             opacity: '0.15'
           }}
         ></div>
